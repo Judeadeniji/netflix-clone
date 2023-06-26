@@ -1,0 +1,29 @@
+{
+  "name": "nf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack && nodemon -x \"http-server -c-1\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.5.2",
+    "file-loader": "^6.2.0",
+    "jass-cli": "^1.0.11",
+    "jass-cli-loader": "^1.0.3",
+    "mime": "^3.0.0",
+    "ora": "^6.1.2",
+    "postcss": "^8.4.21",
+    "postcss-nested": "^6.0.0",
+    "rebunssd": "^1.0.1",
+    "utilitijs-beta": "^0.0.12"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

@@ -1,0 +1,40 @@
+const styles = {
+  header: {
+    backgroundColor: "white",
+    height: "60px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    padding: "0px 16px"
+  },
+  logo: {
+    fontSize: "24px",
+    fontWeight: "bold",
+    color: "black",
+    textDecoration: "none"
+  },
+  navbar: {
+    display: "flex",
+    alignItems: "center"
+  },
+  navbarLinks: {
+    display: "flex",
+    alignItems: "center",
+    listStyle: "none",
+    margin: "0px",
+    padding: "0px"
+  },
+  navbarLink: {
+    margin: "0px 16px",
+    textDecoration: "none",
+    color: "black",
+    fontWeight: "bold",
+    fontSize: "18px"
+  },
+  activeLink: {
+    borderBottom: "2px solid black"
+  }
+};
+
+
+module.exports = styles;
